@@ -2,7 +2,8 @@ from django.urls import path, include, re_path
 from apis import views 
  
 urlpatterns = [ 
-    re_path(r'^api/list$', views.getList),
+     re_path(r'^/', views.empty),          
+     re_path(r'^api/list$', views.getList),
      re_path(r'^api/add$', views.addObject),
      re_path(r'^api/update$', views.addParameter),
      re_path(r'^api/getPeer$', views.getPeerById),
