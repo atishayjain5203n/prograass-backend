@@ -1,0 +1,34 @@
+{
+    "project_id": "4e401fbb40f76c61e270",
+    "title": "Chat Application",
+    "desc": "Real-time chat app with individual and group chat features.",
+    "link": "https://example.com/chat-app",
+    "framework": ["React.js", "Node.js", "Socket.io"],
+    "milestones": {
+        "completed_count": 3,
+        "titles": ["User Authentication", "Real-time Messaging", "Group Chat"]
+    },
+    "project_icon": "https://cdn-icons-png.flaticon.com/512/724/724711.png",
+    "leaders": [
+        "fbca65fcc7d0daf54428"
+    ],
+    "members": [
+        "fbca65fcc7d0daf54428",
+        "defc610a88746f4b1fa2",
+        "t6BLEdka1kiyRKR70IcU"
+    ],
+    "roles": [
+        {
+            "title": "frontend",
+            "assignee":  "fbca65fcc7d0daf54428"
+        },
+        {
+            "title": "Database management",
+            "assignee": "t6BLEdka1kiyRKR70IcU"
+        },
+        {
+            "title": "Backend",
+            "assignee": "defc610a88746f4b1fa2"
+        }
+    ]
+}
